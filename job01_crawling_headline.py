@@ -14,7 +14,7 @@ re_title = re.compile('[^가-힣]|a-z|A-Z')
 for i in range(6):
     response = requests.get(https://news.naver.com/main/main.naver?mode=LSD&mid=shm&sid1=10{}'.format(i),)
 
-##
+###
 
 
 # response = requests.get(url, headers=headers)
